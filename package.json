@@ -1,0 +1,35 @@
+{
+  "name": "node_js_homework",
+  "version": "1.0.0",
+  "description": "assignmnet 7",
+  "type": "module",
+  "keywords": [
+    "node",
+    "nodejs",
+    "express",
+    "babel"
+  ],
+  "homepage": "https://github.com/nkvinnesland/node_js_homework#readme",
+  "bugs": {
+    "url": "https://github.com/nkvinnesland/node_js_homework/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkvinnesland/node_js_homework.git"
+  },
+  "license": "ISC",
+  "author": "Nate Kvinnesland",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node ./app.js",
+    "test": "jest",
+    "build": "Echo Test Completed! No package was uploaded."
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset": "^1.1.7",
+    "babel-preset-env": "^1.7.0",
+    "express": "^5.1.0",
+    "jest": "^29.7.0"
+  }
+}
